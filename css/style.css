@@ -1,4 +1,41 @@
+/*(1) Forked project */
+/*(2) using preview */
+/*(3) see html */
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+    
 body {
   background-color: #dadada;
   font-size: 10px;
+
+.container{
+    width: 450px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+}    
+
+.baku{
+    background-image: url(../images/baku.jpg);
+    background-size: cover;
+    background-position: left;
 }
+    
+/*(4) edit css for one column */
+
+/*(5) add media query for tablet two column display */
+
+/* @media screen and (min-width: 575px) {
+  selector { property: value; }
+}
+ */
+
+/*(6) add media query for four column larger display */
+
+/* @media screen and (min weidth: 991px) {
+  selector { property: value; }
+}
+ */
+
+/*(7) make sure images don't stretch*/
